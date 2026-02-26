@@ -1,0 +1,158 @@
+/* ------------*/
+/* PAGINA 2 */
+/* ------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #666;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background: #d99b2b;
+    margin-right: 20px;
+}
+
+.header-content {
+    flex: 1;
+}
+
+.title {
+    width: 300px;
+    height: 20px;
+    background: #ddd;
+    margin-bottom: 10px;
+}
+
+.lines {
+    width: 80%;
+    height: 10px;
+    background: #888;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+.main-content {
+    flex: 3;
+    background: #222;
+    padding: 20px;
+}
+
+.hero {
+    height: 200px;
+    background: #444;
+    margin-bottom: 20px;
+}
+
+.text-lines {
+    width: 100%;
+    height: 10px;
+    background: #555;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 20%;
+    height: 70px;
+    background: #555;
+}
+
+.sidebar {
+    align-items: row;
+    flex: 1;
+    background: #444;
+    padding: 20px;
+}
+
+.side-item {
+    margin-bottom: 20px;
+}
+
+.thumb {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.red1 {
+    background: #b30021;
+}
+
+.red2 {
+    background: #d9002f;
+}
+
+.red3 {
+    background: #cc0029;
+}
+
+.red4 {
+    background: #f04a3e;
+}
+
+.text-lines-1 {
+    flex: 1;
+    width: 100%;
+    height: 10px;
+    background: #777;
+    margin-bottom: 20px;
+}
+
+.text-lines-2 {
+    width: 100%;
+    height: 10px;
+    background: #777;
+    margin-bottom: 20px;
+}
+
+.text-lines-3 {
+    width: 100%;
+    height: 10px;
+    background: #777;
+    margin-bottom: 20px;
+}
+
+.text-lines-4 {
+    flex: 1;
+    width: 100%;
+    height: 10px;
+    background: #777;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        flex-direction: row;
+    }
+}

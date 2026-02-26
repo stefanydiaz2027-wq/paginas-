@@ -1,0 +1,63 @@
+/* ------------*/
+/* PAGINA 5  */
+/* ------------*/
+
+/* FONDO */
+.pagina5 {
+    background-color: #000000;
+    color: white;
+}
+
+/* FORZAR DISEÑO HORIZONTAL */
+body {
+    min-width: 1200px;
+}
+
+/* EVITA QUE BAJE ELEMENTOS */
+.row {
+    flex-wrap: nowrap;
+}
+
+/* CONTENEDORES */
+.box5 {
+    background-color: #3a3a3a;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+/* VIDEO */
+.video-box5 {
+    background-color: #d90429;
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* TEXTOS */
+.text-grande5 {
+    height: 80px;
+    background-color: #6d6c6c;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.text-line5 {
+    height: 10px;
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* CUADROS NARANJAS */
+.cuadros-naranjas5 {
+    background-color: #f25c1d;
+    height: 120px;
+    border-radius: 15px;
+}
+
+/* TEXTOS PEQUEÑOS */
+.small-text5 {
+    height: 8px;
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    margin: 8px 0;
+}

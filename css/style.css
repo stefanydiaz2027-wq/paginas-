@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------*/
+/* PAGINA 1 */
+/* ------------*/
+body {
+    background-color: #2f2f2f;
+}
+
+/* 🔥 FORZAR QUE NO SE ROMPA */
+.contenedor-principal {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* IZQUIERDA */
+.bloquePrincipal1 {
+    background-color: orange;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.cuadroPequeno1 {
+    background-color: orange;
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+/* TEXTOS */
+.linea1 {
+    background-color: #7c7c7c;
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.lineaCorta1 {
+    background-color: #bfbfbf;
+    height: 25px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+/* DERECHA */
+.sidebar1 {
+    background-color: #444444;
+    border-radius: 10px;
+}
+
+/* EFECTO */
+.zoom-activo1 {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
